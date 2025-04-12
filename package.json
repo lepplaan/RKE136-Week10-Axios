@@ -1,0 +1,26 @@
+{
+  "name": "rke136-week10-axios-heroku",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lepplaan/RKE136-Week10-Axios-Heroku.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lepplaan/RKE136-Week10-Axios-Heroku/issues"
+  },
+  "homepage": "https://github.com/lepplaan/RKE136-Week10-Axios-Heroku#readme",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  }
+}
