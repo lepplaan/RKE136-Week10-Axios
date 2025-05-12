@@ -47,15 +47,6 @@
             </div>
         </div>
 
-        <div class="chat-container">
-            <iframe
-                allow="microphone;"
-                width="350"
-                height="430"
-                src="https://console.dialogflow.com/api-client/demo/embedded/5afda8cd-026b-4c1c-9f78-8d97973f2e70">
-            </iframe>
-        </div>
-
         <footer>
             <h3>Find me to discuss the movie</h3>
              
@@ -70,6 +61,14 @@
         </footer>
 
     </div>
+
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+        intent="WELCOME"
+        chat-title="MovieChatBot"
+        agent-id="5afda8cd-026b-4c1c-9f78-8d97973f2e70"
+        language-code="en"
+    ></df-messenger>
 
 </body>
 </html>
